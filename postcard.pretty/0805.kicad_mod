@@ -1,0 +1,15 @@
+(module 0805 (layer F.Cu) (tedit 5E117BF6)
+  (attr smd)
+  (fp_text reference REF** (at 0 0.3) (layer F.SilkS) hide
+    (effects (font (size 0.1 0.1) (thickness 0.025)))
+  )
+  (fp_text value 0805 (at 0 -0.2) (layer F.Fab) hide
+    (effects (font (size 0.1 0.1) (thickness 0.025)))
+  )
+  (fp_line (start -1.6 -0.6) (end -1.6 0.6) (layer F.CrtYd) (width 0.03))
+  (fp_line (start -1.6 0.6) (end 1.6 0.6) (layer F.CrtYd) (width 0.03))
+  (fp_line (start 1.6 0.6) (end 1.6 -0.6) (layer F.CrtYd) (width 0.03))
+  (fp_line (start 1.6 -0.6) (end -1.6 -0.6) (layer F.CrtYd) (width 0.03))
+  (pad 1 smd rect (at -1 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 1 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
+)

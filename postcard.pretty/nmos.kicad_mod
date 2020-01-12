@@ -1,0 +1,16 @@
+(module nmos (layer F.Cu) (tedit 5E1182D1)
+  (attr smd)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.3 0.3) (thickness 0.075)))
+  )
+  (fp_text value nmos (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 0.3 0.3) (thickness 0.075)))
+  )
+  (fp_line (start -1.2 1.5) (end -1.2 -1.5) (layer F.CrtYd) (width 0.03))
+  (fp_line (start -1.2 -1.5) (end 1.2 -1.5) (layer F.CrtYd) (width 0.03))
+  (fp_line (start 1.2 -1.5) (end 1.2 1.5) (layer F.CrtYd) (width 0.03))
+  (fp_line (start 1.2 1.5) (end -1.2 1.5) (layer F.CrtYd) (width 0.03))
+  (pad 1 smd rect (at -0.95 1.1) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 0 -1.1) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.95 1.1) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
+)

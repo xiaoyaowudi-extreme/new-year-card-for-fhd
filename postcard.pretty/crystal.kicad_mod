@@ -1,0 +1,17 @@
+(module crystal (layer F.Cu) (tedit 5E117FA4)
+  (attr smd)
+  (fp_text reference REF** (at 0 0.2) (layer F.SilkS) hide
+    (effects (font (size 0.1 0.1) (thickness 0.025)))
+  )
+  (fp_text value crystal (at 0 -0.2) (layer F.Fab) hide
+    (effects (font (size 0.1 0.1) (thickness 0.025)))
+  )
+  (fp_line (start -1.9 -1.5) (end -1.9 1.5) (layer F.CrtYd) (width 0.03))
+  (fp_line (start -1.9 1.5) (end 1.9 1.5) (layer F.CrtYd) (width 0.03))
+  (fp_line (start 1.9 1.5) (end 1.9 -1.5) (layer F.CrtYd) (width 0.03))
+  (fp_line (start 1.9 -1.5) (end -1.9 -1.5) (layer F.CrtYd) (width 0.03))
+  (pad 1 smd rect (at -1.1 0.85) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 1.1 0.85) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 1.1 -0.85) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at -1.1 -0.85) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask))
+)
